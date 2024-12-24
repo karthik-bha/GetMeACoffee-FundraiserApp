@@ -10,6 +10,7 @@ const page = () => {
         const router=useRouter();
         router.push('/dashboard')
     }
+   
     return (
         <div className='flex flex-col m-auto  h-[50vh] '>
             <div className='flex flex-col m-auto p-2'>
