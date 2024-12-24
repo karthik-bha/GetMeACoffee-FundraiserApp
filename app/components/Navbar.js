@@ -4,6 +4,7 @@ import React from 'react'
 import { useSession, signIn, signOut } from "next-auth/react"
 import {useState} from 'react'
 
+
 const Navbar = () => {
   const { data: session } = useSession()
   const[dropdown, setdropdown]=useState(false)
@@ -30,9 +31,10 @@ const Navbar = () => {
                 <li className='px-8 py-2 hover:cursor-pointer hover:font-semibold text-[15px] hover:bg-slate-600'>
                   Dashboard</li>
               </Link>
+              <Link href={`/${session.user.name}`}>
                 <li className='px-8 py-2 hover:cursor-pointer hover:font-semibold text-[15px] hover:bg-slate-600'>
                   Your Profile</li>
-       
+                  </Link>
                 <li className='px-8 py-2 hover:cursor-pointer hover:font-semibold text-[15px] hover:bg-slate-600'
                 onClick={()=>{signOut()}}
                 >Sign Out</li>
