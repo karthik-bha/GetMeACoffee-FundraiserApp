@@ -1,13 +1,13 @@
 import Footer from "./components/footer";
 import Navbar from "./components/navbar";
-
+import Link from "next/link";
 
 export default function Home() {
   return (
     <div className="mx-1 md:mx-auto ">
-      <div className="flex justify-center items-center text-white h-[44vh]  flex-col gap-2 text-center md:gap-4 ">
+      <div className="flex justify-center items-center text-white h-[44vh] md:h-[60vh]  flex-col gap-2 text-center md:gap-4 ">
         <h1 className="text-2xl md:text-5xl flex md:gap-2 items-center justify-center font-semibold">
-          Get me a coffee
+          Get Me A Coffee
           <span>
             <img
               src="/assets/coffee.gif"
@@ -18,32 +18,35 @@ export default function Home() {
           </span>
         </h1>
         <p className="text-1xl md:text-2xl">
-          A crowdfounding platform for creators. Get funded by your fans and
-          followers
+          A crowdfounding platform for everyone. Get funded by anyone.
         </p>
-        <div className="flex">
+        <div className="flex my-8 gap-2">
+          <Link href="/login">
           <button
             type="button"
             class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
-          >
+         >
             Start Here
           </button>
+          </Link>
+          <Link href="/about">
           <button
             type="button"
             class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
           >
             Read More
           </button>
+          </Link>
         </div>
       </div>
       <div className="h-2 bg-slate-500 opacity-10"></div>
       <div>
         <div className="my-4 py-5">
           <h1 className="text-2xl md:text-4xl text-white font-semibold text-center">
-            Your fans can buy you a coffee
+            People can buy you a coffee
           </h1>
 
-          <div className=" text-white flex  items-center text-center  justify-around my-10">
+          <div className=" grid grid-cols-3 text-center my-10">
             <div className="items-center flex justify-center flex-col gap-4 my-10">
               <img
                 src="/assets/working.gif"
@@ -53,10 +56,10 @@ export default function Home() {
               ></img>
               <div className="flex flex-col gap-2">
                 <h2 className=" text-[15px] md:text-[20px] font-[600]">
-                  Fans want to help
+                  Donations straight to your account
                 </h2>
                 <p className="text-[13px] md:text-1xl">
-                  Your fans are available to help you
+                  Seamless razorpay payment gateway
                 </p>
               </div>
             </div>
@@ -69,14 +72,14 @@ export default function Home() {
               ></img>
               <div className="flex flex-col gap-2">
                 <h2 className=" text-[15px] md:text-[20px] font-[600]">
-                  Fans want to help
+                  No Comissions
                 </h2>
                 <p className="text-[13px] md:text-1xl">
-                  Your fans are available to help you
+                  All donated money goes to you, 100%
                 </p>
               </div>
             </div>
-            <div className="items-center flex justify-center flex-col gap-4 my-10">
+            <div className="items-center flex justify-center flex-col gap-4">
               <img
                 src="/assets/group.gif"
                 width={79}
@@ -85,10 +88,10 @@ export default function Home() {
               ></img>
               <div className="flex flex-col gap-2">
                 <h2 className=" text-[15px] md:text-[20px] font-[600]">
-                  Fans want to help
+                  People Power
                 </h2>
                 <p className="text-[13px] md:text-1xl">
-                  Your fans are available to help you
+                 Get Crowdfunded by kind people
                 </p>
               </div>
             </div>

@@ -15,7 +15,7 @@ const page = () => {
         <div className='flex flex-col m-auto  h-[50vh] '>
             <div className='flex flex-col m-auto p-2'>
                 <div className='mx-auto my-10'>
-                    <h1 className='text-white text-3xl font-semibold'>Login here</h1>
+                    <h1 className='text-white text-3xl font-semibold'>Login to get started</h1>
                 </div>
                 <div className='flex flex-col md:flex-row  gap-2 hover:gap-4'>
                 <div className=' bg-white p-2 mx-auto  rounded-md  hover:scale-105 text-black'>
