@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### Draft Readme about GetMeACoffee-FundraiserApp 
 
-## Getting Started
+## Breif description about the GetMeACoffee-FundraiserApp 
 
-First, run the development server:
+- GetMeACoffee-FundraiserApp is a full-stack crowdfunding platform designed to help individuals and organizations raise funds for their needs.
+- Built with Next.js, it ensures a modern, fast, and scalable user experience.
+  
+## Features
+- Secure Authentication using NextAuth.js GitHub OAuth, Google OAuth support coming soon.
+- Secure payment processing powered by Razorpay for donations.
+- Responsive and user-friendly design for seamless access across devices.
+- Customizable user profiles.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technical Details
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Tech Stack
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Next.js - A React-based framework for building fast and scalable web applications.
+- MongoDB - A NoSQL database for efficient data management.
+- Node.js - Backend runtime for server-side functionality.
+- Tailwind CSS - For modern and responsive styling.
+- Razorpay API - For secure payment processing.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Detailed readme regarding setup and use coming soon!
