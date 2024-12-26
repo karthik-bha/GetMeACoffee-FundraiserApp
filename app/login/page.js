@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react'
 import { useSession, signIn } from "next-auth/react"
 import { useRouter } from 'next/navigation'
-import Loader from '../components/loader'
+import Loader from './components/Loader'
 
 const Page = () => {
     const { data: session } = useSession();
