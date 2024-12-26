@@ -122,7 +122,7 @@ const Page = () => {
                 <div className='my-2 text-[14px] md:text-[16px] '>
                   <h3 className='mt-2'>You CANNOT change your e-mail</h3>
 
-                  <p className='mt-2'>If you'd like to recieve payments, set your own Razorpay id and secret. </p>
+                  <p className='mt-2'>If you&apos;d like to recieve payments, set your own Razorpay id and secret. </p>
 
                   <p className='mt-2'>By default, a test key and secret is used.</p>
 
