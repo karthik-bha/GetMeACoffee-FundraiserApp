@@ -5,7 +5,7 @@ import connectDB from '@/db/connectDB'
 import User from '@/models/User'
 import { notFound } from 'next/navigation'
 
-const page =async ({ params }) => {
+const Page =async ({ params }) => {
   const checkUser=async()=>{
     await connectDB();
     let user= await User.findOne({username:params.username});
@@ -22,4 +22,4 @@ const page =async ({ params }) => {
   )
 }
 
-export default page
+export default Page

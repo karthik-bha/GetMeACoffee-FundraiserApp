@@ -9,7 +9,7 @@ import 'react-toastify/dist/ReactToastify.css'
 import CustomLoader from '../components/CustomLoader';
 
 
-const page = () => {
+const Page = () => {
 
   const { data: session, update, status } = useSession();
   const [form, setForm] = useState({});
@@ -140,4 +140,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

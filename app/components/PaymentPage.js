@@ -140,7 +140,7 @@ const PaymentPage = ({ username }) => {
                             {payments.length === 0 && <li>No payments yet.</li>}
                             {payments.map((items, index) => {
                                 return (
-                                    <li key={index}>{items.name} donated <b>₹{items.amount}</b> with a message "{items.message}"</li>
+                                    <li key={index}>{items.name} donated <b>₹{items.amount}</b> with a message &quot;{items.message}&quot;</li>
                                 )
                             })}
 
