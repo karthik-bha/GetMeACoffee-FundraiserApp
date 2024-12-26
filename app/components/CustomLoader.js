@@ -8,8 +8,8 @@ const CustomLoader = () => {
         <Image 
           src="/assets/loader.gif" 
           alt="Loading..."
-          width={500}  // Customize the size as needed
-          height={500} // Customize the size as needed
+          width={250}  
+          height={250} 
         />
       </div>
    

@@ -2,6 +2,7 @@
   "extends": "next/core-web-vitals",
   "rules": {
     "no-unresolved": "off",
-    "import/no-extraneous-dependencies": "off"
+    "import/no-extraneous-dependencies": "off",
+     "react/no-unescaped-entities": "warn"
   }
 }
