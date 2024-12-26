@@ -1,6 +1,6 @@
 import React from 'react'
 
-const page = () => {
+const Page = () => {
   return (
     <div className='text-center h-[75vh]  flex m-auto'>
         <div className='flex flex-col m-auto'>
@@ -13,4 +13,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
