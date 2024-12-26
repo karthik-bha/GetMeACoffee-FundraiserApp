@@ -7,7 +7,8 @@ import { ToastContainer, toast } from 'react-toastify';
 import { Bounce } from 'react-toastify'
 import { useRouter } from 'next/navigation'
 import 'react-toastify/dist/ReactToastify.css'
-import Loader from '/Loader'
+import CustomLoader from './CustomLoader';
+
 
 const PaymentPage = ({ username }) => {
     // const session=useSession();
@@ -97,7 +98,7 @@ const PaymentPage = ({ username }) => {
         <>
             {loading ? 
             <div className='min-h-screen bg-black'>
-                <Loader/>
+                <CustomLoader/>
             </div> : <> <ToastContainer
                 position="top-right"
                 autoClose={5000}
