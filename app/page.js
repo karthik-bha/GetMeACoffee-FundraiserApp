@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="mx-1 md:mx-auto ">
+    <div className="mx-auto">
       <div className="flex justify-center items-center text-white h-[44vh] md:h-[60vh]  flex-col gap-2 text-center md:gap-4 ">
         <h1 className="text-2xl md:text-5xl flex md:gap-2 items-center justify-center font-semibold">
           Get Me A Coffee
@@ -46,7 +46,7 @@ export default function Home() {
             People can buy you a coffee
           </h1>
 
-          <div className=" grid grid-cols-3 text-center my-10">
+          <div className=" grid grid-cols-1 md:grid-cols-3 text-center items-center my-10">
             <div className="items-center flex justify-center flex-col gap-4 my-10">
               <img
                 src="/assets/working.gif"
@@ -103,15 +103,14 @@ export default function Home() {
       <div className="flex justify-center items-center flex-col my-10 gap-5">
         <h1 className="text-white text-4xl font-[600] ">Learn More</h1>
         <iframe
-          width="560"
-          height="315"
           src="https://www.youtube.com/embed/Sklc_fQBmcs?si=cQKNPNeQVX3UvNVd"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen
-          className="rounded-lg"
+          className="rounded-lg w-[200px] h-auto   md:w-[560px] md:h-[350px]"
+       
         ></iframe>
       </div>
     </div>
