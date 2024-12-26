@@ -2,7 +2,8 @@
 import React, { useState, useEffect } from 'react'
 import { useSession, signIn } from "next-auth/react"
 import { useRouter } from 'next/navigation'
-import Loader from './components/Loader'
+import CustomLoader from '../components/CustomLoader';
+
 
 const Page = () => {
     const { data: session } = useSession();
@@ -30,7 +31,7 @@ const Page = () => {
         <>
             {loading ? (
                 <div className='min-h-screen bg-black'>
-                    <Loader />
+                    <CustomLoader />
                 </div>
             ) : (
                 <>

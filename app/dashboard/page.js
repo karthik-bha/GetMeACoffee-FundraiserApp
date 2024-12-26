@@ -6,7 +6,8 @@ import { fetchuser, updateUser } from '@/actions/useractions'
 import { ToastContainer, toast } from 'react-toastify';
 import { Bounce } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
-import Loader from './components/Loader'
+import CustomLoader from '../components/CustomLoader';
+
 
 const page = () => {
 
@@ -68,7 +69,7 @@ const page = () => {
   return (
     <>{loading ?
       <div className='min-h-screen flex bg-black'>
-        <Loader />
+        <CustomLoader />
       </div> :
       <>
         <ToastContainer

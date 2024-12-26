@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-const Loader = () => {
+const CustomLoader = () => {
   return (
    
       <div className='flex justify-center items-center m-auto z-50'>
@@ -16,4 +16,4 @@ const Loader = () => {
   );
 };
 
-export default Loader;
+export default CustomLoader;
