@@ -7,7 +7,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import { Bounce } from 'react-toastify'
 import { useRouter } from 'next/navigation'
 import 'react-toastify/dist/ReactToastify.css'
-import Loader from './loader'
+import Loader from '/Loader'
 
 const PaymentPage = ({ username }) => {
     // const session=useSession();
