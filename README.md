@@ -21,4 +21,4 @@ Tech Stack
 - Tailwind CSS - For modern and responsive styling.
 - Razorpay API - For secure payment processing.
 
-Detailed readme regarding setup and use coming soon!
+Detailed documentation can be found in the repo, it's named Documentation.docx.
