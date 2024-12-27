@@ -1,4 +1,4 @@
-### Draft Readme about GetMeACoffee-FundraiserApp 
+### Readme about GetMeACoffee-FundraiserApp (For detailed docs check Documentation.docx)
 
 ## Breif description about the GetMeACoffee-FundraiserApp 
 
